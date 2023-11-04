@@ -11,10 +11,10 @@ import face_recognition as face_rec
 
 
 # img declaration
-first = face_rec.load_image_file('images/dimashi.jpg')
+first = face_rec.load_image_file('images')
 first = cv2.cvtColor(first, cv2.COLOR_BGR2RGB)
 # first = resize(first, 0.50)
-second = face_rec.load_image_file('images/dimashi.jpg')
+second = face_rec.load_image_file('images')
 # second = resize(second, 0.50)
 second = cv2.cvtColor(second, cv2.COLOR_BGR2RGB)
 
